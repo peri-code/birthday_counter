@@ -1,0 +1,96 @@
+:root {
+    background:#1f6f78;
+  }
+
+  body {
+    background: var(--gradient);
+    margin: 0;
+    min-width: 250px;
+    font-family: 'Poppins', sans-serif;
+
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  .container {
+    width: 100%;
+    max-width: 500px;
+    background: #ffffff;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 5px;
+}
+
+h1{
+    color: rgb(25, 52, 69);
+    display: flex;
+    padding-left: 100px;
+    margin-bottom: 25px;
+      
+  }
+
+  .line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:#488782;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+  }
+  
+
+  input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background:#bbcccb;
+    padding: 10px;
+    border-radius:10px;
+  }
+
+  button {
+    border: none;
+    outline: none;
+    padding: 15px 40px;
+    background:#077068;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+
+  }
+
+  .values {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: orange;
+    border: 5px dotted rgb(170, 81, 17);
+    font-size: 32px;
+    display: grid;
+    place-items: center;
+    color: rgb(20, 126, 168);
+    text-shadow: 0 0 10px rgb(189, 234, 240);
+    font-weight: bold;
+    margin:100px;
+    content: 10px;
+    
+  }
+
+  .countdown {
+    color: rgb(133, 24, 39);
+    display: flex;
+    padding-left: 60px;
+    margin-bottom: 25px;
+    font-size: 25px;
+    font-weight: bold;
+
+  }
+
+
+
+
+
+  
